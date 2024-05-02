@@ -1,6 +1,20 @@
-DT=int(input("Digite os dias"))
-meses = int((DT%365)/30)
-dias = int((DT%365)%30)
-anos=(DT//365)
+C = ""
+N= 0
+salario = 0.00
+VALOR_HORA = 10
+HORA_EXCEDENTE = 20.00 
+LIMITE_HORA= 50
+salario_total = 0.00
+salario_excedente = 0.00
 
-print(f"Você viveu {dias} dias, {meses} meses, {anos} anos")
+c= input("Digite o codigo : ")
+N= int(Input("numero de horas : "))
+
+if N<=LIMITE_HORA:
+    salario = N + VALOR_HORA
+else:
+        E-N-LIMITE_HORA
+        salario_excedente- E +HORA_EXCEDENTE
+        salario_total - (list+VALOR_HORA)
+        print(f" Horas excedentes {E}")
+
