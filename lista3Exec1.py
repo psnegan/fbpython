@@ -23,6 +23,7 @@ for pessoa in habitantes:
     
     total_salario= total_salario+ salario
     total_filhos = total_filhos + numero_filhos
+
     if salario> maior_salario:
         maior_salario= salario
         if salario<=100:
@@ -31,10 +32,12 @@ for pessoa in habitantes:
     media_salarial= total_salario/qtde
     media_filhos = total_filhos/qtde
     percentual_salario_1000=(percentual_salario_1000/qtde)*100
+
+
     print(f"total de salarios R$ : {total_salario}")
     print(f"maior salario é R$: {maior_salario}")
     print(f"media salaraial R$ : {media_salarial}")
     print(f"media de filhos : {media_filhos}")
     print(f"Percentual de pessoas com salario até 100{percentual_salario_1000}")
 
-
+    print("Fim de programa")
