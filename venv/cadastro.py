@@ -5,7 +5,7 @@ import os
 conexao = pymysql.connect(
     host='localhost',
     user='root',
-    password='1234',
+    password='fbradesco',
     database='dbloja'
    )
 
